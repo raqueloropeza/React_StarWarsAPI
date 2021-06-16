@@ -1,3 +1,9 @@
+# Star Wars API App
+Front-end app using React and Axios that helps navigate the Star Wars API
+1. Index route renders form that allows the user to select a category to search either characters or planets and input an id.
+2. An API request will query a specific id depending on the category selected. 
+3. Request will render a list of four attributes of the id from the Star Wars API. 
+4. If the request is uncessful an error message that says "These aren't the droids you're looking for" will render with a picture of Obi Wan. 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
